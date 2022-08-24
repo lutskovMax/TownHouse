@@ -651,7 +651,6 @@ html {
     max-height: 440px;
   }
 }
-
 @media (max-width: 480px) {
   .modal__slider img {
     max-height: 320px;
@@ -950,6 +949,7 @@ html {
 }
 .plan__item {
   text-align: center;
+  color: #fff;
 }
 .plan__item h4 {
   font-size: 16px;
@@ -1169,7 +1169,7 @@ html {
   padding: 75px 0;
 }
 .how__body {
-  padding-top: 40px;
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
