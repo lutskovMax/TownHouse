@@ -652,6 +652,12 @@ html {
   }
 }
 
+@media (max-width: 480px) {
+  .modal__slider img {
+    max-height: 320px;
+  }
+}
+
 .modal__slider.owl-carousel.owl-loaded {
   max-width: 560px;
 }
